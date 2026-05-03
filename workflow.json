@@ -74,7 +74,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=https://api.telegram.org/bot8757302456:AAEMAebk/{{ $json.telegramMethod }}\n",
+        "url": "=https://api.telegram.org/:/{{ $json.telegramMethod }}\n",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ $json.telegramPayload }}",
@@ -243,7 +243,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=https://api.telegram.org/bot875730241AUNs2M/{{ $('Code Router').item.json.telegramMethod }}",
+        "url": "=https://api.teleg/{{ $('Code Router').item.json.telegramMethod }}",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ $('Code Router').item.json.telegramPayload }}",
